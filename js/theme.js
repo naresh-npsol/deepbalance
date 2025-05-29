@@ -11,7 +11,7 @@
 
   // ------------------------ Switcher
   if ($("body").length) {
-    $("body").append('<a href="index-dark.html" id="switcher" class="d-flex align-items-center justify-content-center" title="Dark Version"><i class="bi bi-moon-stars-fill"></i></a>');
+    $("body").append('<a href="#" id="switcher" class="d-flex align-items-center justify-content-center" title="Dark Version"><i class="bi bi-moon-stars-fill"></i></a>');
     if ($('html').attr('data-bs-theme') === 'dark') {
       $('#switcher').attr({
         'href': 'index.html',
